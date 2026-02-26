@@ -43,10 +43,10 @@ make
 
 # 4. run
 Make the H/W connections:
-CN8:7   -> VDD
-CN8:11  -> GND
-CN10:13 -> SCL
-CN7:4   -> SDA
+- CN8:7   -> VDD
+- CN8:11  -> GND
+- CN10:13 -> SCL
+- CN7:4   -> SDA
 ```
 cd ${PROJ_DIR}
 make run
