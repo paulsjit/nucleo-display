@@ -120,7 +120,7 @@ debug: app
 	$(if $(wildcard test_debug.gdb),--command test_debug.gdb)
 
 .PHONY: run 
-run: app.elf
+run: app
 	$(GDB) --ex 'target remote 127.0.0.1:61234' app.elf --ex 'load' --ex 'detach' --batch \
 	$(if $(wildcard test_run.gdb),--command test_run.gdb)
 
