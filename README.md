@@ -24,6 +24,7 @@ make
 ```
 
 # 5. start ST-GDB-server
+```
 ${CUBE_DIR}/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.linux64_2.2.300.202509021040/tools/bin/ST-LINK_gdbserver \
     -p 61234 \
     -l 31 \
@@ -34,6 +35,7 @@ ${CUBE_DIR}/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.lin
     -k \
     -e \
     -v
+```
 
 # 6. run
 Make the H/W connections:
