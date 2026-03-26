@@ -39,10 +39,10 @@ ${CUBE_DIR}/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.lin
 
 # 6. run
 Make the H/W connections:
-- CN12:2  -> VDD
-- CN12:6  -> GND
-- P1:08   -> SCL
-- P1:01   -> SDA
+- P2:6    -> VDD
+- P1:5    -> GND
+- P1:7    -> SCL
+- P1:10   -> SDA
 ```
 cd ${PROJ_DIR}
 make run
